@@ -1,3 +1,9 @@
+''' This code has been adapted from this video
+https://youtu.be/KTeVOb8gaD4 please do check it out for more about SVM
+I ran this code on my raspberry pi zero
+'''
+
+
 print "starting"
 print "------"
 ### Delete following 2 lines if not interested in time to run code
