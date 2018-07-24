@@ -4,8 +4,8 @@ I ran this code on my raspberry pi zero
 '''
 
 
-print "starting"
-print "------"
+print ("starting")
+print ("------")
 ### Delete following 2 lines if not interested in time to run code
 import time
 time_start = time.time()
@@ -14,8 +14,8 @@ from sklearn import datasets
 from sklearn import svm
 
 ### Delete following line if not interested in time to run code
-print "time to import libraries: ", time.time() - time_start
-print "------"
+print ("time to import libraries: ", time.time()) - time_start
+print ("------")
 ### Delete following line if not interested in time to run code
 time_start2 = time.time()
 ### Number of training samples to not train on, but test
